@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE141D8F2679895F00D2D8E5 /* BonbonTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE141D8E2679895F00D2D8E5 /* BonbonTabBarController.swift */; };
+		BE141D9726798D7300D2D8E5 /* PreferenciasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE141D9626798D7300D2D8E5 /* PreferenciasController.swift */; };
+		BE35A5BB267D7A510065A7D9 /* URLRequestExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE35A5BA267D7A510065A7D9 /* URLRequestExtension.swift */; };
+		BE35A5BD267D7B100065A7D9 /* UIAlertControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE35A5BC267D7B100065A7D9 /* UIAlertControllerExtension.swift */; };
+		BE35A5C1267D877F0065A7D9 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE35A5C0267D877F0065A7D9 /* UIViewControllerExtension.swift */; };
+		BE3DF1FD267E5D2A002DDD27 /* Validatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3DF1FC267E5D2A002DDD27 /* Validatable.swift */; };
+		BE3DF1FF267E5D85002DDD27 /* RecetaValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3DF1FE267E5D85002DDD27 /* RecetaValidator.swift */; };
+		BE3DF201267E649E002DDD27 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3DF200267E649E002DDD27 /* UITextFieldExtension.swift */; };
+		BE6A5FE92676D56500B4591B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6A5FE82676D56500B4591B /* AppDelegate.swift */; };
+		BE6A5FEB2676D56500B4591B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6A5FEA2676D56500B4591B /* SceneDelegate.swift */; };
+		BE6A5FED2676D56500B4591B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6A5FEC2676D56500B4591B /* ViewController.swift */; };
+		BE6A5FF02676D56500B4591B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE6A5FEE2676D56500B4591B /* Main.storyboard */; };
+		BE6A5FF22676D56600B4591B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6A5FF12676D56600B4591B /* Assets.xcassets */; };
+		BE6A5FF52676D56600B4591B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE6A5FF32676D56600B4591B /* LaunchScreen.storyboard */; };
+		BE6A60002676D56600B4591B /* BonbonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6A5FFF2676D56600B4591B /* BonbonTests.swift */; };
+		BE6A600B2676D56600B4591B /* BonbonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6A600A2676D56600B4591B /* BonbonUITests.swift */; };
+		BE6AC20A267832A400F07769 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6AC209267832A400F07769 /* APIManager.swift */; };
+		BE6AC2152678342D00F07769 /* Operacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6AC2142678342D00F07769 /* Operacion.swift */; };
+		BE6AC21D2678372100F07769 /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6AC21C2678372000F07769 /* ErrorManager.swift */; };
+		BEA1878A2676EF1700E9DD19 /* ListadoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA187892676EF1700E9DD19 /* ListadoController.swift */; };
+		BEA187922676EF3600E9DD19 /* CreadoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA187912676EF3600E9DD19 /* CreadoController.swift */; };
+		BEA187972676EF4400E9DD19 /* EditadoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA187962676EF4400E9DD19 /* EditadoController.swift */; };
+		BEA1879C2676EF5400E9DD19 /* Receta.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA1879B2676EF5400E9DD19 /* Receta.swift */; };
+		BEA187A12676EF9100E9DD19 /* Categoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA187A02676EF9100E9DD19 /* Categoria.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE6A5FFC2676D56600B4591B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE6A5FDD2676D56500B4591B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE6A5FE42676D56500B4591B;
+			remoteInfo = Bonbon;
+		};
+		BE6A60072676D56600B4591B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE6A5FDD2676D56500B4591B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE6A5FE42676D56500B4591B;
+			remoteInfo = Bonbon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE141D8E2679895F00D2D8E5 /* BonbonTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonbonTabBarController.swift; sourceTree = "<group>"; };
+		BE141D9626798D7300D2D8E5 /* PreferenciasController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenciasController.swift; sourceTree = "<group>"; };
+		BE35A5BA267D7A510065A7D9 /* URLRequestExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestExtension.swift; sourceTree = "<group>"; };
+		BE35A5BC267D7B100065A7D9 /* UIAlertControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertControllerExtension.swift; sourceTree = "<group>"; };
+		BE35A5C0267D877F0065A7D9 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		BE3DF1FC267E5D2A002DDD27 /* Validatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validatable.swift; sourceTree = "<group>"; };
+		BE3DF1FE267E5D85002DDD27 /* RecetaValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecetaValidator.swift; sourceTree = "<group>"; };
+		BE3DF200267E649E002DDD27 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		BE6A5FE52676D56500B4591B /* Bonbon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bonbon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE6A5FE82676D56500B4591B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE6A5FEA2676D56500B4591B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BE6A5FEC2676D56500B4591B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE6A5FEF2676D56500B4591B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE6A5FF12676D56600B4591B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE6A5FF42676D56600B4591B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE6A5FF62676D56600B4591B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE6A5FFB2676D56600B4591B /* BonbonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonbonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE6A5FFF2676D56600B4591B /* BonbonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonbonTests.swift; sourceTree = "<group>"; };
+		BE6A60012676D56600B4591B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE6A60062676D56600B4591B /* BonbonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonbonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE6A600A2676D56600B4591B /* BonbonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonbonUITests.swift; sourceTree = "<group>"; };
+		BE6A600C2676D56600B4591B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE6AC209267832A400F07769 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		BE6AC2142678342D00F07769 /* Operacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operacion.swift; sourceTree = "<group>"; };
+		BE6AC21C2678372000F07769 /* ErrorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorManager.swift; sourceTree = "<group>"; };
+		BEA187892676EF1700E9DD19 /* ListadoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListadoController.swift; sourceTree = "<group>"; };
+		BEA187912676EF3600E9DD19 /* CreadoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreadoController.swift; sourceTree = "<group>"; };
+		BEA187962676EF4400E9DD19 /* EditadoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditadoController.swift; sourceTree = "<group>"; };
+		BEA1879B2676EF5400E9DD19 /* Receta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receta.swift; sourceTree = "<group>"; };
+		BEA187A02676EF9100E9DD19 /* Categoria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categoria.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE6A5FE22676D56500B4591B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE6A5FF82676D56600B4591B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE6A60032676D56600B4591B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE35A5B9267D7A1B0065A7D9 /* Extensiones */ = {
+			isa = PBXGroup;
+			children = (
+				BE35A5BA267D7A510065A7D9 /* URLRequestExtension.swift */,
+				BE35A5BC267D7B100065A7D9 /* UIAlertControllerExtension.swift */,
+				BE35A5C0267D877F0065A7D9 /* UIViewControllerExtension.swift */,
+				BE3DF200267E649E002DDD27 /* UITextFieldExtension.swift */,
+			);
+			path = Extensiones;
+			sourceTree = "<group>";
+		};
+		BE3DF1FB267E5CF4002DDD27 /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				BE3DF1FC267E5D2A002DDD27 /* Validatable.swift */,
+				BE3DF1FE267E5D85002DDD27 /* RecetaValidator.swift */,
+			);
+			path = Validators;
+			sourceTree = "<group>";
+		};
+		BE6A5FDC2676D56500B4591B = {
+			isa = PBXGroup;
+			children = (
+				BE6A5FE72676D56500B4591B /* Bonbon */,
+				BE6A5FFE2676D56600B4591B /* BonbonTests */,
+				BE6A60092676D56600B4591B /* BonbonUITests */,
+				BE6A5FE62676D56500B4591B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE6A5FE62676D56500B4591B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE6A5FE52676D56500B4591B /* Bonbon.app */,
+				BE6A5FFB2676D56600B4591B /* BonbonTests.xctest */,
+				BE6A60062676D56600B4591B /* BonbonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE6A5FE72676D56500B4591B /* Bonbon */ = {
+			isa = PBXGroup;
+			children = (
+				BE3DF1FB267E5CF4002DDD27 /* Validators */,
+				BE35A5B9267D7A1B0065A7D9 /* Extensiones */,
+				BE6AC2082678328900F07769 /* Manejadores */,
+				BEA187862676EEA900E9DD19 /* Controllers */,
+				BEA187852676EE9800E9DD19 /* Entidades */,
+				BE6A5FE82676D56500B4591B /* AppDelegate.swift */,
+				BE6A5FEA2676D56500B4591B /* SceneDelegate.swift */,
+				BE6A5FEE2676D56500B4591B /* Main.storyboard */,
+				BE6A5FF12676D56600B4591B /* Assets.xcassets */,
+				BE6A5FF32676D56600B4591B /* LaunchScreen.storyboard */,
+				BE6A5FF62676D56600B4591B /* Info.plist */,
+			);
+			path = Bonbon;
+			sourceTree = "<group>";
+		};
+		BE6A5FFE2676D56600B4591B /* BonbonTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE6A5FFF2676D56600B4591B /* BonbonTests.swift */,
+				BE6A60012676D56600B4591B /* Info.plist */,
+			);
+			path = BonbonTests;
+			sourceTree = "<group>";
+		};
+		BE6A60092676D56600B4591B /* BonbonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE6A600A2676D56600B4591B /* BonbonUITests.swift */,
+				BE6A600C2676D56600B4591B /* Info.plist */,
+			);
+			path = BonbonUITests;
+			sourceTree = "<group>";
+		};
+		BE6AC2082678328900F07769 /* Manejadores */ = {
+			isa = PBXGroup;
+			children = (
+				BE6AC209267832A400F07769 /* APIManager.swift */,
+				BE6AC21C2678372000F07769 /* ErrorManager.swift */,
+			);
+			path = Manejadores;
+			sourceTree = "<group>";
+		};
+		BEA187852676EE9800E9DD19 /* Entidades */ = {
+			isa = PBXGroup;
+			children = (
+				BE6AC2142678342D00F07769 /* Operacion.swift */,
+				BEA1879B2676EF5400E9DD19 /* Receta.swift */,
+				BEA187A02676EF9100E9DD19 /* Categoria.swift */,
+			);
+			path = Entidades;
+			sourceTree = "<group>";
+		};
+		BEA187862676EEA900E9DD19 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BE6A5FEC2676D56500B4591B /* ViewController.swift */,
+				BEA187892676EF1700E9DD19 /* ListadoController.swift */,
+				BEA187912676EF3600E9DD19 /* CreadoController.swift */,
+				BEA187962676EF4400E9DD19 /* EditadoController.swift */,
+				BE141D8E2679895F00D2D8E5 /* BonbonTabBarController.swift */,
+				BE141D9626798D7300D2D8E5 /* PreferenciasController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE6A5FE42676D56500B4591B /* Bonbon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE6A600F2676D56600B4591B /* Build configuration list for PBXNativeTarget "Bonbon" */;
+			buildPhases = (
+				BE6A5FE12676D56500B4591B /* Sources */,
+				BE6A5FE22676D56500B4591B /* Frameworks */,
+				BE6A5FE32676D56500B4591B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bonbon;
+			productName = Bonbon;
+			productReference = BE6A5FE52676D56500B4591B /* Bonbon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE6A5FFA2676D56600B4591B /* BonbonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE6A60122676D56600B4591B /* Build configuration list for PBXNativeTarget "BonbonTests" */;
+			buildPhases = (
+				BE6A5FF72676D56600B4591B /* Sources */,
+				BE6A5FF82676D56600B4591B /* Frameworks */,
+				BE6A5FF92676D56600B4591B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE6A5FFD2676D56600B4591B /* PBXTargetDependency */,
+			);
+			name = BonbonTests;
+			productName = BonbonTests;
+			productReference = BE6A5FFB2676D56600B4591B /* BonbonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE6A60052676D56600B4591B /* BonbonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE6A60152676D56600B4591B /* Build configuration list for PBXNativeTarget "BonbonUITests" */;
+			buildPhases = (
+				BE6A60022676D56600B4591B /* Sources */,
+				BE6A60032676D56600B4591B /* Frameworks */,
+				BE6A60042676D56600B4591B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE6A60082676D56600B4591B /* PBXTargetDependency */,
+			);
+			name = BonbonUITests;
+			productName = BonbonUITests;
+			productReference = BE6A60062676D56600B4591B /* BonbonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE6A5FDD2676D56500B4591B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BE6A5FE42676D56500B4591B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					BE6A5FFA2676D56600B4591B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BE6A5FE42676D56500B4591B;
+					};
+					BE6A60052676D56600B4591B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BE6A5FE42676D56500B4591B;
+					};
+				};
+			};
+			buildConfigurationList = BE6A5FE02676D56500B4591B /* Build configuration list for PBXProject "Bonbon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE6A5FDC2676D56500B4591B;
+			productRefGroup = BE6A5FE62676D56500B4591B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE6A5FE42676D56500B4591B /* Bonbon */,
+				BE6A5FFA2676D56600B4591B /* BonbonTests */,
+				BE6A60052676D56600B4591B /* BonbonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE6A5FE32676D56500B4591B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6A5FF52676D56600B4591B /* LaunchScreen.storyboard in Resources */,
+				BE6A5FF22676D56600B4591B /* Assets.xcassets in Resources */,
+				BE6A5FF02676D56500B4591B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE6A5FF92676D56600B4591B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE6A60042676D56600B4591B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE6A5FE12676D56500B4591B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA1879C2676EF5400E9DD19 /* Receta.swift in Sources */,
+				BE3DF1FD267E5D2A002DDD27 /* Validatable.swift in Sources */,
+				BEA187A12676EF9100E9DD19 /* Categoria.swift in Sources */,
+				BE6A5FED2676D56500B4591B /* ViewController.swift in Sources */,
+				BE3DF1FF267E5D85002DDD27 /* RecetaValidator.swift in Sources */,
+				BEA187922676EF3600E9DD19 /* CreadoController.swift in Sources */,
+				BE35A5C1267D877F0065A7D9 /* UIViewControllerExtension.swift in Sources */,
+				BE6AC21D2678372100F07769 /* ErrorManager.swift in Sources */,
+				BE6AC2152678342D00F07769 /* Operacion.swift in Sources */,
+				BE35A5BB267D7A510065A7D9 /* URLRequestExtension.swift in Sources */,
+				BE6A5FE92676D56500B4591B /* AppDelegate.swift in Sources */,
+				BE141D8F2679895F00D2D8E5 /* BonbonTabBarController.swift in Sources */,
+				BE3DF201267E649E002DDD27 /* UITextFieldExtension.swift in Sources */,
+				BEA1878A2676EF1700E9DD19 /* ListadoController.swift in Sources */,
+				BEA187972676EF4400E9DD19 /* EditadoController.swift in Sources */,
+				BE6AC20A267832A400F07769 /* APIManager.swift in Sources */,
+				BE141D9726798D7300D2D8E5 /* PreferenciasController.swift in Sources */,
+				BE6A5FEB2676D56500B4591B /* SceneDelegate.swift in Sources */,
+				BE35A5BD267D7B100065A7D9 /* UIAlertControllerExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE6A5FF72676D56600B4591B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6A60002676D56600B4591B /* BonbonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE6A60022676D56600B4591B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6A600B2676D56600B4591B /* BonbonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE6A5FFD2676D56600B4591B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE6A5FE42676D56500B4591B /* Bonbon */;
+			targetProxy = BE6A5FFC2676D56600B4591B /* PBXContainerItemProxy */;
+		};
+		BE6A60082676D56600B4591B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE6A5FE42676D56500B4591B /* Bonbon */;
+			targetProxy = BE6A60072676D56600B4591B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE6A5FEE2676D56500B4591B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE6A5FEF2676D56500B4591B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE6A5FF32676D56600B4591B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE6A5FF42676D56600B4591B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE6A600D2676D56600B4591B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE6A600E2676D56600B4591B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE6A60102676D56600B4591B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J924LA86K;
+				INFOPLIST_FILE = Bonbon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fegarza.www.Bonbon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE6A60112676D56600B4591B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J924LA86K;
+				INFOPLIST_FILE = Bonbon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fegarza.www.Bonbon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE6A60132676D56600B4591B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BonbonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fegarza.www.BonbonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bonbon.app/Bonbon";
+			};
+			name = Debug;
+		};
+		BE6A60142676D56600B4591B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BonbonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fegarza.www.BonbonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bonbon.app/Bonbon";
+			};
+			name = Release;
+		};
+		BE6A60162676D56600B4591B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BonbonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fegarza.www.BonbonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bonbon;
+			};
+			name = Debug;
+		};
+		BE6A60172676D56600B4591B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BonbonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fegarza.www.BonbonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bonbon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE6A5FE02676D56500B4591B /* Build configuration list for PBXProject "Bonbon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6A600D2676D56600B4591B /* Debug */,
+				BE6A600E2676D56600B4591B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE6A600F2676D56600B4591B /* Build configuration list for PBXNativeTarget "Bonbon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6A60102676D56600B4591B /* Debug */,
+				BE6A60112676D56600B4591B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE6A60122676D56600B4591B /* Build configuration list for PBXNativeTarget "BonbonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6A60132676D56600B4591B /* Debug */,
+				BE6A60142676D56600B4591B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE6A60152676D56600B4591B /* Build configuration list for PBXNativeTarget "BonbonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6A60162676D56600B4591B /* Debug */,
+				BE6A60172676D56600B4591B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE6A5FDD2676D56500B4591B /* Project object */;
+}
